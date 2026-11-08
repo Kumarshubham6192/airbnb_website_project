@@ -1,0 +1,99 @@
+body {
+    font-family: "Figtree", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.navbar{
+   height: 5rem;
+   background-color: white; 
+}
+.fa-compass{
+  color: #fe424d;
+  font-size: 2rem; 
+}
+.nav-link {
+   color: #222222 !important; 
+}
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+}
+
+.f-info{
+    text-align: center;
+    height:8rem;
+    background-color:#ebebeb;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+.f-info-socials{
+    width:100%;
+    
+}
+.f-info-socials{
+    font-size: 1.2rem;
+}
+.f-info-links{
+    width:100%;
+    
+}
+/* cards */
+.card {
+    border:none !important;
+    margin-bottom:2rem;
+
+    
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    aspect-ratio: 1/1;
+}
+.card-body{
+    padding: 0 !important;
+    margin-top: 0.5rem;
+}
+.card-text{
+    font-weight: 400 !important;
+
+}
+.links{
+    text-decoration: none;
+    color:#222222;
+    
+}
+.card-img-top:hover{
+    opacity: 0.9;
+    background-color: #ebebeb;
+    
+}
+
+.card {
+    overflow: hidden !important;
+    border-radius:2rem ;
+}
+
+/* 2. Set the transition speed and smoothness */
+.card-img-top {
+    transition: transform 0.4s ease-in-out !important;
+    border-radius:2rem ;
+}
+
+/* 3. Scale the image up slightly when hovering over the card */
+.card:hover .card-img-top {
+    transform: scale(1.08); 
+   /* Increase to 1.1 for a bigger zoom, or use 0.95 to zoom out/shrink */
+}
+.navbar-nav{
+    background-color:white;
+    
+}
